@@ -393,6 +393,7 @@ body{
         animation:slideDown 0.5s ease;
     }
 
+  
     .nav-links.active{
         display:flex;
     }
@@ -608,7 +609,7 @@ body{
 ========================= */
 
 @media(max-width:768px){
-
+   
     .dropdown-menu,
     .submenu-menu{
         position:static;
@@ -634,197 +635,7 @@ body{
         padding-left:20px;
     }
 }
- /* =========================
-   HERO CONTENT
-========================= */
 
-.hero-content{
-    width:100%;
-    height:100vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-    padding:20px;
-    position:relative;
-    z-index:5;
-}
-
-/* CONTENT BOX */
-
-.hero-left{
-    max-width:950px;
-    color:#fff;
-    animation:fadeUp 1.2s ease;
-}
-
-/* SUB HEADING */
-
-.sub-heading{
-    display:inline-block;
-    padding:10px 22px;
-    border-radius:30px;
-    background:rgba(255,255,255,0.08);
-    border:1px solid rgba(255,255,255,0.1);
-    color:#4da3ff;
-    font-size:14px;
-    font-weight:600;
-    letter-spacing:1px;
-    margin-bottom:25px;
-    backdrop-filter:blur(8px);
-}
-
-/* MAIN HEADING */
-
-.hero-left h1{
-    font-size:78px;
-    line-height:1.1;
-    margin-bottom:25px;
-    font-weight:700;
-    text-shadow:0 5px 20px rgba(0,0,0,0.35);
-}
-
-/* PARAGRAPH */
-
-.hero-left p{
-    font-size:22px;
-    line-height:1.8;
-    color:#f1f1f1;
-    max-width:900px;
-    margin:auto;
-    margin-bottom:40px;
-    text-shadow:0 3px 10px rgba(0,0,0,0.35);
-}
-
-/* BUTTONS */
-
-.hero-buttons{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
-}
-
-/* PRIMARY BUTTON */
-
-.primary-btn{
-    padding:18px 38px;
-    border:none;
-    border-radius:50px;
-    background:linear-gradient(135deg,#ff5722,#ff7b00);
-    color:#fff;
-    font-size:17px;
-    font-weight:600;
-    cursor:pointer;
-    transition:0.4s ease;
-    display:flex;
-    align-items:center;
-    gap:10px;
-}
-
-.primary-btn:hover{
-    transform:translateY(-5px);
-    background:linear-gradient(135deg,#4da3ff,#008cff);
-    box-shadow:0 0 25px rgba(77,163,255,0.5);
-}
-
-/* SECONDARY BUTTON */
-
-.secondary-btn{
-    padding:18px 38px;
-    border-radius:50px;
-    background:rgba(255,255,255,0.08);
-    border:1px solid rgba(255,255,255,0.2);
-    color:#fff;
-    font-size:17px;
-    font-weight:600;
-    cursor:pointer;
-    transition:0.4s ease;
-    backdrop-filter:blur(6px);
-}
-
-.secondary-btn:hover{
-    background:#4da3ff;
-    border-color:#4da3ff;
-    transform:translateY(-5px);
-    box-shadow:0 0 25px rgba(77,163,255,0.5);
-}
-
-/* =========================
-   ANIMATION
-========================= */
-
-@keyframes fadeUp{
-
-    from{
-        opacity:0;
-        transform:translateY(50px);
-    }
-
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
-}
-
-/* =========================
-   RESPONSIVE
-========================= */
-
-@media(max-width:992px){
-
-    .hero-left h1{
-        font-size:58px;
-    }
-
-    .hero-left p{
-        font-size:18px;
-    }
-}
-
-@media(max-width:768px){
-
-    .hero-left h1{
-        font-size:42px;
-    }
-
-    .hero-left p{
-        font-size:16px;
-        line-height:1.7;
-    }
-
-    .primary-btn,
-    .secondary-btn{
-        padding:15px 28px;
-        font-size:15px;
-    }
-}
-
-@media(max-width:480px){
-
-    .hero-content{
-        padding:120px 20px 40px;
-    }
-
-    .hero-left h1{
-        font-size:32px;
-    }
-
-    .hero-left p{
-        font-size:14px;
-    }
-
-    .hero-buttons{
-        flex-direction:column;
-        width:100%;
-    }
-
-    .primary-btn,
-    .secondary-btn{
-        width:100%;
-        justify-content:center;
-    }
-}
 /* HERO CONTENT */
 
 .hero-content{
